@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1600px;
+    margin:0 auto;
+
+}
+.background{
+    height: 680px;
+    background-image: url(/img/main_logo.png);
+}
+.nav{
+    display: flex;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.nav_menu{
+    margin-left: 100px;
+}
+.nav_menu ul{
+    display: flex;
+    list-style: none;
+    
+    
+    
+}
+.nav_menu ul li:not(:last-child){
+    padding-right: 30px;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav_menu ul li a:hover{
+    color: #10c9c3;
+}
+.logo{
+    margin-right: 500px;
+}
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    float: right;
+    margin-right: 230px;
+    margin-top: 150px;
+}
+.h1 h1{
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.button{
+    padding-top: 20px;
+}
+.button  button{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color:#10c9c3;
+    border: none;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+.about{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+.about p{
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.about h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+
+}
+.double{
+    display: flex;
+    height: 560px;
+}
+.right{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.right_foto{
+    height: 100%;
+    width: 100%;
+    background: url(../img/furion.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position:relative;
+    z-index:9999;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.right:hover .right_foto,
+.right:focus .right_foto{
+-ms-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+
+.left{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 60px;
+    background-color: #f8f9f9;
+    
+}
+.left h1{
+    font-weight: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.left ul{
+    list-style-image: url(../img/pngegg.png);
+}
+.left li{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.image{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.promo{
+    display: flex;
+    height: 240px;
+    max-width: auto;
+    background-color: #10c9c3;
+    
+   
+}
+.promo_text{
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first{
+    width: 25%;
+    padding-top: 75px;
+    text-align: center;
+
+}
+.second{
+    width: 25%;
+    padding-top: 75px;
+    text-align: center;
+}
+.third{
+    width: 25%;
+    padding-top: 75px;
+    text-align: center;
+}
+.fourth{
+    width: 25%;
+    padding-top: 75px;
+    text-align: center;
+}
+.first_row{
+    display: flex;
+    height: 300px;
+}
+.second_row{
+    display: flex;
+    height: 300px;
+}
+.first_1{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.second_1{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.third_1{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.fourth_1{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.first_2{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.second_2{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.third_2{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.fourth_2{
+    width: 25%;
+    border: 1px solid rgb(133, 130, 130);
+    background-image: url(https://via.placeholder.com/333px)
+}
+.more{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+}
+.more a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.link{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.link h1{
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.link p{
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+.first_row_1{
+    display: flex;
+    height: 300px;
+    background-color: #f5f5f5;
+    padding-left: 100px;
+}
+.second_row_1{
+    display: flex;
+    height: 300px;
+    background-color: #f5f5f5;
+    padding-left: 100px;
+}
+    .first_3{
+    width: 25%;
+    padding-top: 95px
+    }
+    .second_3{
+        width: 25%;
+        padding-top: 95px
+    }
+    .third_3{
+        width: 25%;
+        padding-top: 95px
+    }
+    .fourth_3{
+        width: 25%;
+        padding-top: 95px
+    }
+    .first_4{
+        width: 25%;
+        padding-bottom: 95px
+        }
+        .second_4{
+            width: 25%;
+            padding-bottom: 95px
+        }
+        .third_4{
+            width: 25%;
+            padding-bottom: 95px
+        }
+        .fourth_4{
+            width: 25%;
+            padding-bottom: 95px
+        }
+.wrapper{
+    height: 600px;
+    background-color: #10c9c3;
+    text-align: center;
+    
+}
+.wrapper h2{
+    padding-top: 180px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    
+}
+.wrapper p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 140px;
+}
+.div-logo{
+    display: flex;
+    height: 200px;
+    text-align: center;
+}
+.first_5{
+    width: 20%;
+    padding-top: 65px
+    }
+    .second_5{
+     width: 20%;
+     padding-top: 65px
+    }
+    .third_5{
+     width: 20%;
+     padding-top: 65px
+    }
+    .fourth_5{
+     width: 20%;
+     padding-top: 65px
+}
+.fifth_5{
+    width: 20%;
+    padding-top: 65px
+}
+.wrapper-footer{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.wrapper-footer h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+
+}
+.wrapper-footer p{
+    color: #828282;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-footer .div_call{
+    padding: 15px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: coral;
+    border: 0.5px solid #0e0101;
+    
+}
+.wrapper-footer .div_call a{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: black;
+
+
+}
+.call{
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: none;
+}
+.div_call:active{
+    position: relative;
+    top: 3px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    height: 280px;
+}
+.promo-footer{
+    width: 60%;
+    display: flex;
+}
+.promo-footer img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer-nav{
+    width: 40%;
+    display: flex;
+    margin-top: 100px;
+}
+.footer-nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.footer-nav a:hover{
+    border-bottom: 1px solid white;
+}
+.footer-nav ul{
+    list-style: none;
+    margin-left: 30px;
+}
+.footer-nav ul:last-child{
+    margin-left: 80px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.social a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+}
